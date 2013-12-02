@@ -1,0 +1,52 @@
+/* Layout */
+.container {
+	background: #0ff;
+	margin: 0 auto;
+	width: 960px;
+	}
+	
+nav {
+	background: #ffc;
+	width: 960px;
+	}
+	
+article {
+	background: #fcf;
+	float: left;
+	width: 640px;
+	}	
+	
+aside {
+	background: #660;
+	float: left;
+	width: 320px;
+	}
+	
+footer {
+	background: red;
+	clear: both;
+	width: 960px;
+	}
+	
+/* TYPOGRAPHY */
+
+h1 {
+	font-size: 3em; /*48px ÷ 16px = 3em*/
+	}
+
+h2 {
+	font-size: 2.25em; /*36px ÷ 16px = 2em*/
+	}
+
+
+h3 {
+	font-size: 1.5em; /*24px ÷ 16px = 1.5em*/
+	}
+
+
+
+
+
+
+
+
