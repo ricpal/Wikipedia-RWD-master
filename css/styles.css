@@ -23,7 +23,7 @@ aside {
 	}
 	
 footer {
-	background: red;
+	background: maroon;
 	clear: both;
 	width: 960px;
 	}
@@ -50,7 +50,12 @@ P {
 
 /* ALL LINKS */
 
+a {
+	color: #f00;
+	font-size: 1.25em;
+	}
 
-
-
+footer a {
+	font-size: 1em; /*20px ÷ 20px = 1em*/
+	}
 
