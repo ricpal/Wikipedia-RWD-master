@@ -60,14 +60,33 @@ footer a {
 	font-size: 1em; /*20px ÷ 20px = 1em*/
 	}
 
-/* FLUID GRID */
+/* DESKTOP */
+
+@media screen and (max-width: 1024px) {
+	body {
+		background: red;
+		}
+	} /* end of Desktop */
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+	body {
+		background: green;
+		}
+	} /* end of TABLET */
 
 
+/* PHONE */
 
-
-
-
-
+@media screen and (max-width: 480px) {
+	body {
+		background: blue;
+		}
+		aside {
+			float: none;
+			}
+	} /* end of PHONE */
 
 
 
