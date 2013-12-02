@@ -2,30 +2,31 @@
 .container {
 	background: #0ff;
 	margin: 0 auto;
-	width: 960px;
+	width: 95%; /*960px*/
+	max-width: 95%;
 	}
 	
 nav {
 	background: #ffc;
-	width: 960px;
+	width: 100%; /*960px / 960px = 100%*/
 	}
 	
 article {
 	background: #fcf;
 	float: left;
-	width: 640px;
+	width: 66.666666%; /*640px / 960px = 66.66%*/
 	}	
 	
 aside {
 	background: #660;
 	float: left;
-	width: 320px;
+	width: 33.333333%; /*320px / 960px = 66.66%*/
 	}
 	
 footer {
 	background: maroon;
 	clear: both;
-	width: 960px;
+	width: 100%; /*960px / 960px = 100%*/
 	}
 	
 /* TYPOGRAPHY */
@@ -58,4 +59,32 @@ a {
 footer a {
 	font-size: 1em; /*20px ÷ 20px = 1em*/
 	}
+
+/* FLUID GRID */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
